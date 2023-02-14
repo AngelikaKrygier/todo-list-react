@@ -6,12 +6,10 @@
 - HTML
 - CSS
 - JavaScript
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Demo
-https://angelikakrygier.github.io/taskList/
+https://angelikakrygier.github.io/todo-list-react/
 
 
 ## Available Scripts
