@@ -1,5 +1,3 @@
-
-import React from "react";
 import "./style.css";
 
 const Tasks = ({ tasks, hideDoneTasks }) => (
@@ -7,7 +5,7 @@ const Tasks = ({ tasks, hideDoneTasks }) => (
         {tasks.map(task => (
             <li
                 className={`tasksList__item 
-                ${task.done && hideDoneTasks
+                    ${task.done && hideDoneTasks
                         ? "tasksList__item--hidden"
                         : ""}`}
             >
@@ -15,7 +13,7 @@ const Tasks = ({ tasks, hideDoneTasks }) => (
                     {task.done ? "✓" : ""}
                 </button>
                 <span className={`tasksList__content  
-                ${task.done
+                    ${task.done
                         ? "tasksList__content--done"
                         : ""}`}>
                     {task.content}
