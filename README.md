@@ -8,6 +8,9 @@
 - JavaScript
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Zrzut ekranu 2023-02-15 092331](https://user-images.githubusercontent.com/123166327/218972531-2fe68f94-f815-4247-bee6-fbe5c01e1c72.png)
+
+
 ## Demo
 https://angelikakrygier.github.io/todo-list-react/
 
