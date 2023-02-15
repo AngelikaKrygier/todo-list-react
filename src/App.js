@@ -2,7 +2,7 @@ import React from "react";
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
-import Section from "./section";
+import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
 
