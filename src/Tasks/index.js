@@ -1,6 +1,6 @@
 import "./style.css";
 
-const Tasks = ({ tasks, hideDone }) => (
+const Tasks = ({ tasks, hideDone}) => (
     <ul className="tasksList">
         {tasks.map(task => (
             <li key={task.id}
