@@ -1,6 +1,6 @@
 # Tasks list
 
-"TasksList" is a simple application to create a list of tasks. 
+"TasksList" is a simple application to create a list of tasks. In addition, the user can delete, mark and hide tasks as done.
 
 ### Technologies
 - HTML
@@ -8,8 +8,7 @@
 - JavaScript
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Zrzut ekranu 2023-02-15 092331](https://user-images.githubusercontent.com/123166327/218972531-2fe68f94-f815-4247-bee6-fbe5c01e1c72.png)
-
+![todoslistreact](https://user-images.githubusercontent.com/123166327/223076421-2871d2fa-9220-4cf4-99d8-66bdb768d560.gif)
 
 ## Demo
 https://angelikakrygier.github.io/todo-list-react/
