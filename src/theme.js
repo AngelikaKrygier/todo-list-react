@@ -1,6 +1,6 @@
 export const theme = {
     color: {
-        white: "rgb(255, 255, 255)",
+        white: "#FFFFFF",
         alto: "#DEDEDE",
         sliver: "#A6A6A6",
         teal: "#008080",
