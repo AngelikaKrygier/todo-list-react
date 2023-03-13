@@ -4,7 +4,7 @@ export const StyledButtons = styled.div`
     display: flex;
     justify-content: center;
 
-    @media (max-width:550px) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
@@ -14,18 +14,18 @@ export const StyledButtons = styled.div`
 
 export const Button = styled.button`
     border: none;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 128, 128);
+    background-color:${({ theme }) => theme.color.white};
+    color: ${({ theme }) => theme.color.teal};
     font-size: 15px;
     cursor: pointer;
     transition: 1s;
 
         &:hover{
-            color: rgba(0, 128, 128, 0.485);
+            color: ${({ theme }) => theme.color.persianGree};
         }
 
         &:disabled{
-            color: rgb(166, 166, 166);
+            color: ${({ theme }) => theme.color.silver};
         }
 `;
 
