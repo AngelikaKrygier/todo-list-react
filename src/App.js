@@ -9,7 +9,7 @@ import { useTasks } from "./useTasks";
 
 function App() {
 
-  const { 
+  const {
     tasks,
     removeTask,
     toggleTaskDone,
