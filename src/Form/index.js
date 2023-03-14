@@ -1,17 +1,19 @@
 import React, { useState, useRef } from "react";
 import { StyledForm, Input, Button } from "./styled";
 
-
 const Form = ({ addNewTask }) => {
     const [newTaskContent, setNewTaskContent] = useState("");
     const inputRef = useRef(null);
 
     const onFormSubmit = (event) => {
         event.preventDefault();
-        if (newTaskContent.trim() === "") {
+        const trimedTaskContent = newTaskContent.trim();
+
+        if (trimedTaskContent === "") {
             return;
         }
-        addNewTask(newTaskContent.trim());
+
+        addNewTask(trimedTaskContent);
         setNewTaskContent("");
         inputRef.current.focus();
     };
