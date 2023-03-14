@@ -28,4 +28,5 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
         ))}
     </List>
 );
+
 export default Tasks;

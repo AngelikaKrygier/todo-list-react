@@ -12,9 +12,9 @@ export const Body = styled.div`
     grid-gap: 10px;
     border-bottom: 1px solid ${({ theme }) => theme.color.silver};
 
-         @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
-            grid-template-columns: 1fr;
-        }
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+        grid-template-columns: 1fr;
+    }
 `;
 
 export const Header = styled.h2`

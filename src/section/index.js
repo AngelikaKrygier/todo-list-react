@@ -11,4 +11,5 @@ const Section = ({ title, body, extraHeaderContent }) => (
         </MainPart>
     </StyledSection>
 );
+
 export default Section;
