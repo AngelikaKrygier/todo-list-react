@@ -6,7 +6,8 @@
 - HTML
 - CSS
 - JavaScript
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Redux
+- React
 
 ![todoslistreact](https://user-images.githubusercontent.com/123166327/223076421-2871d2fa-9220-4cf4-99d8-66bdb768d560.gif)
 
