@@ -6,7 +6,7 @@ import {
     toggleHideDone,
     setAllDone,
     fetchExampleTasks
-} from "../tasksSlice";
+} from "../TasksPage/tasksSlice";
 
 const Buttons = () => {
     const { tasks, hideDone } = useSelector(selectTasks);
@@ -29,7 +29,7 @@ const Buttons = () => {
                     </Button>
                 </>
             )
-            };
+            }
         </StyledButtons>
     )
 };
