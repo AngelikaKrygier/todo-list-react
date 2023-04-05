@@ -5,6 +5,7 @@ import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Container from "../../../common/Container";
 import Search from "./Search";
+import Button from "./Button";
 
 function TasksPage() {
   return (
@@ -17,6 +18,9 @@ function TasksPage() {
         body={
           <Form />
         }
+        extraHeaderContent={
+          <Button
+          />}
       />
         <Section
         title="Wyszukiwarka"

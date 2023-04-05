@@ -1,4 +1,4 @@
-import { StyledButtons, Button } from "./styled";
+import { StyledButtons } from "./styled";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import {
@@ -7,6 +7,7 @@ import {
     setAllDone,
     fetchExampleTasks
 } from "../../tasksSlice";
+import BasicButton from "../../BasicButton";
 
 const Buttons = () => {
     const { tasks, hideDone } = useSelector(selectTasksState);
@@ -14,19 +15,19 @@ const Buttons = () => {
 
     return (
         <StyledButtons>
-            <Button onClick={() => dispatch(fetchExampleTasks())}>
+            <BasicButton onClick={() => dispatch(fetchExampleTasks())}>
                 Pokaż przykładowe zadania
-            </Button>
+            </BasicButton>
             {tasks.length > 0 && (
                 <>
-                    <Button onClick={() => dispatch(toggleHideDone())} className="buttons__button">
+                    <BasicButton onClick={() => dispatch(toggleHideDone())} className="buttons__button">
                         {hideDone ? "Pokaż" : "Ukryj"} ukończone
-                    </Button>
-                    <Button
+                    </BasicButton>
+                    <BasicButton
                         disabled={tasks.every(({ done }) => done)}
                         onClick={() => dispatch(setAllDone())}>
                         Ukończ wszystkie
-                    </Button>
+                    </BasicButton>
                 </>
             )
             }
