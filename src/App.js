@@ -1,17 +1,19 @@
 import TasksPage from "./features/tasks/TasksPage/index.js";
 import TaskPage from "./features/tasks/TaskPage/index.js";
 import AuthorPage from "./features/author/AuthorPage";
-import { HashRouter, Switch, Route, Link, Redirect } from "react-router-dom";
+import { HashRouter, Switch, Route, Redirect, Link } from "react-router-dom";
+import { StyledNavLink } from "./styled.js";
+// import { StyledNavLink } from "./styled.js";
 
 const App = () => (
     <HashRouter>
         <nav>
             <ul>
                 <li>
-                    <Link to="/zadania">Zadania</Link>
+                    <StyledNavLink to="/zadania">Zadania</StyledNavLink>
                 </li>
                 <li>
-                    <Link to="/autor">o autorze</Link>
+                    <StyledNavLink to="/autor">o autorze</StyledNavLink>
                 </li>
             </ul>
             <Switch>
