@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { StyledForm, Button } from "./styled";
 import { useDispatch } from "react-redux";
 import { addTask } from "../../tasksSlice";

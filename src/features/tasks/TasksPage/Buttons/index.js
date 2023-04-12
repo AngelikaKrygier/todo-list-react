@@ -5,7 +5,6 @@ import {
     selectTasksState,
     toggleHideDone,
     setAllDone,
-    fetchExampleTasks
 } from "../../tasksSlice";
 import BasicButton from "../../BasicButton";
 
