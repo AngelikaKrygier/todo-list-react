@@ -10,6 +10,8 @@ In additional, the user can also download example tasks and read something about
 - Redux
 - Redux-Saga
 - React
+- React-Router
+- Styled Components
 
 ![todos_3](https://user-images.githubusercontent.com/123166327/231420546-d05ea69f-7c78-494b-af0e-593fb824ced3.gif)
 
