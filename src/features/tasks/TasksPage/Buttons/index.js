@@ -21,7 +21,7 @@ const Buttons = () => {
                         {hideDone ? "Pokaż" : "Ukryj"} ukończone
                     </BasicButton>
                     <BasicButton
-                        disabled={tasks.every(({ done }) => done)}
+                        disabled={tasks.every(({ done }) => done === true)}
                         onClick={() => dispatch(setAllDone())}>
                         Ukończ wszystkie
                     </BasicButton>

@@ -9,10 +9,10 @@ export default styled.button`
     transition: 1s;
 
         &:hover{
-            color: ${({ theme }) => theme.color.persianGree};
+            color: ${({ theme }) => theme.color.persianGreen};
         }
 
         &:disabled{
-            color: ${({ theme }) => theme.color.silver};
+            color: ${({ theme }) => theme.color.sliver};
         }
 `;
