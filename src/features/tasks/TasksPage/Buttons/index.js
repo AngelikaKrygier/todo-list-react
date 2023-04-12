@@ -15,9 +15,6 @@ const Buttons = () => {
 
     return (
         <StyledButtons>
-            <BasicButton onClick={() => dispatch(fetchExampleTasks())}>
-                Pokaż przykładowe zadania
-            </BasicButton>
             {tasks.length > 0 && (
                 <>
                     <BasicButton onClick={() => dispatch(toggleHideDone())} className="buttons__button">

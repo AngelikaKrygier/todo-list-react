@@ -10,7 +10,7 @@ export const Body = styled.div`
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 10px;
-    border-bottom: 1px solid ${({ theme }) => theme.color.silver};
+    border-bottom: 1px solid ${({ theme }) => theme.color.alto};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
         grid-template-columns: 1fr;

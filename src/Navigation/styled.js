@@ -5,7 +5,7 @@ export const NavigationList = styled.nav`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: ${({theme})=> theme.color.teal};
+    background-color: ${({ theme }) => theme.color.teal};
 `
 
 export const ListItem = styled.li`
@@ -18,6 +18,6 @@ export const StyledNavLink = styled(NavLink)`
         font-weight: 900;
     }
 
-color: ${({theme})=> theme.color.white};
+color: ${({ theme }) => theme.color.white};
 text-decoration: none;
 `

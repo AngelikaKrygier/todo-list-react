@@ -9,7 +9,7 @@ const Navigation = ()=> (
                 <StyledNavLink to="/zadania">Zadania</StyledNavLink>
             </ListItem>
             <ListItem>
-                <StyledNavLink to="/autor">o autorze</StyledNavLink>
+                <StyledNavLink to="/autor">O Autorze</StyledNavLink>
             </ListItem>
         </NavigationList>
     </nav>
