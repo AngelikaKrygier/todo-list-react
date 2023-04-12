@@ -5,7 +5,7 @@ import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Container from "../../../common/Container";
 import Search from "./Search";
-import Button from "./Button";
+import FetchExampleTaskButton from "./FetchExampleTaskButton";
 
 function TasksPage() {
   return (
@@ -19,7 +19,7 @@ function TasksPage() {
           <Form />
         }
         extraHeaderContent={
-          <Button
+          <FetchExampleTaskButton
           />}
       />
         <Section
