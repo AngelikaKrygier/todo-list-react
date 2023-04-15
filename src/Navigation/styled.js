@@ -14,10 +14,14 @@ list-style: none;
 `
 
 export const StyledNavLink = styled(NavLink)`
-    &.active {
+color: ${({ theme }) => theme.color.white};
+text-decoration: none;
+
+&.active {
         font-weight: 900;
     }
 
-color: ${({ theme }) => theme.color.white};
-text-decoration: none;
+&:hover{
+        border-bottom: 1px solid};
+
 `
