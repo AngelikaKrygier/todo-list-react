@@ -4,14 +4,16 @@ import searchQueryParamName from "../searchQueryParamName";
 import Input from "../../Input";
 
 const Search = () => {
-
     const query = useQueryParametr(searchQueryParamName);
     const replaceQueryParameter = useReplaceQueryparameter();
 
     const onInputChange = ({ target }) => {
         replaceQueryParameter({
             key: searchQueryParamName,
-            value: target.value.trim() !== "" ? target.value : undefined,
+            value:
+                target.value.trim() !== ""
+                    ? target.value
+                    : undefined,
         });
     };
 

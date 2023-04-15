@@ -8,7 +8,6 @@ import Input from "../../Input";
 const Form = () => {
     const [newTaskContent, setNewTaskContent] = useState("");
     const inputRef = useRef(null);
-
     const dispatch = useDispatch();
 
     const onFormSubmit = (event) => {
@@ -43,6 +42,6 @@ const Form = () => {
                 Dodaj zadanie
             </Button>
         </StyledForm>
-    )
+    );
 };
 export default Form;

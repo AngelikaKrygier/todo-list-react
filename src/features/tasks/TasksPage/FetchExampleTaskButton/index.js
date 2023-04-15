@@ -6,7 +6,7 @@ import BasicButton from "../../BasicButton";
 
 const FetchExampleTaskButton = () => {
     const dispatch = useDispatch();
-    const loading = useSelector(selectLoading)
+    const loading = useSelector(selectLoading);
 
     return (
         <Wrapper>
@@ -21,4 +21,5 @@ const FetchExampleTaskButton = () => {
 
     )
 };
+
 export default FetchExampleTaskButton;

@@ -39,6 +39,6 @@ const TasksList = () => {
             ))}
         </List>
     );
-}
+};
 
 export default TasksList;

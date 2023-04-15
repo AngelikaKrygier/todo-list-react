@@ -1,8 +1,7 @@
-import { StyledNavLink } from "./styled"
-import { NavigationList, ListItem } from "./styled"
+import { StyledNavLink } from "./styled";
+import { NavigationList, ListItem } from "./styled";
 
-const Navigation = ()=> (
- 
+const Navigation = () => (
     <nav>
         <NavigationList>
             <ListItem>
@@ -13,6 +12,6 @@ const Navigation = ()=> (
             </ListItem>
         </NavigationList>
     </nav>
-)
+);
 
 export default Navigation

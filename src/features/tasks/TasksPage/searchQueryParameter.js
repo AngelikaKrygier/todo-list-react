@@ -4,12 +4,11 @@ export const useQueryParametr = key => {
     const location = useLocation();
     const searchParams = new URLSearchParams(location.search);
     return searchParams.get(key)
-}
+};
 
 export const useReplaceQueryparameter = () => {
     const location = useLocation();
     const history = useHistory();
-
 
     return ({ key, value }) => {
         const searchParams = new URLSearchParams(location.search);
@@ -22,5 +21,5 @@ export const useReplaceQueryparameter = () => {
 
         const newSearch = searchParams.toString();
         history.push(`${location.pathname}?${newSearch}`);
-    }
-}
+    };
+};
