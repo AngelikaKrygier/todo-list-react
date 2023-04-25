@@ -1,7 +1,6 @@
 # Tasks list
 
-"TasksList" is a simple application to create a list of tasks. The user can delete, hide, filter nad mark tasks as done.
-In additional, the user can also download example tasks and read something about author. 
+"TasksList" is a simple application, based on React. It allows users to create a list of tasks. The user can also delete, hide, filter, and mark tasks as done, as well as download example tasks and read something about the author. 
 
 ### Technologies
 - HTML
